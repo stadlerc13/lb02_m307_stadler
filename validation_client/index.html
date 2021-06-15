@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="style/input-form.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="images/bridge.png">
+    <title>Anmeldung Linth OpenAir</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <form id="form" class="form">
+        <h2>Anmeldung Openair Linth</h2>
+        <!-- Aufgabe 1a: Fügen Sie Eingabefelder für Vor- und Nachname hinzu  -->
+        <div class="form-control">
+          <label for="name">Vorname</label>
+          <input type="text" id="name" placeholder="Vorname eingeben" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="lastname">Nachname</label>
+          <input type="text" id="lastname" placeholder="Nachname eingeben" />
+          <small>Error message</small>
+        </div>
+
+
+        <!-- Aufgabe 1b: Fügen Sie ein Eingabefeld für eine Telefonnummer hinzu -->
+
+        <div class="form-control">
+          <label for="username">Benutzername</label>
+          <input type="text" id="username" placeholder="Benutzername eingeben" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Emailadresse eingeben" />
+          <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+          <label for="birthdate"> Geburtsdatum</label>
+          <input type="date" id="birthdate" placeholder="Geburtsdatum eingeben">
+          <small>Error message</small>
+
+          <div class="form-control">
+            <input type="radio" name="payement" value="bill"> Per Rechnung im Vorraus
+            <input type="radio" name="payement" value="cashdesk">An der Kasse
+            <input type="radio" name="payement" value="TWINT" checked>TWINT im Vorraus
+            <small>Error message</small>
+        </div>
+
+          <div class="form-control">
+            <label for="c1">22. Juli</label>
+            <input type="checkbox" name="extra" id="c1" value="firstday">
+            <label for="c2">23. Juli</label>
+            <input type="checkbox" name="extra" id="c2" value="secondday">
+            <label for="c3">24. Juli</label>
+            <input type="checkbox" name="extra" id="c3" value="thirdday">
+            <label for="c3">25. Juli</label>
+            <input type="checkbox" name="extra" id="c3" value="forthday">
+            <small>Error message</small>
+          </div>
+
+          <div class="form-control">
+            <p> Kopie Pass / ID einfügen</p>
+            <input type="file" name="bild" accept="image/*">
+            <small>Error message</small>
+          </div>
+        <div class="form-control">
+          <label for="password">Passwort</label>
+          <input type="password" id="password" placeholder="Passwort eingeben" />
+          <small>Error message</small>
+        </div>
+        <!-- Aufgabe 1c: Fügen Sie ein weiteres Passwortfeld (zur Bestätigung des ersten Passworts) hinzu -->
+        <div class="form-control">
+          <label for="passwordcontrol">Passwort</label>
+          <input type="password" id="passwordcontrol" placeholder="Passwort bestätigen" />
+          <small>Error message</small>
+        </div>
+
+        <button type="submit">Absenden</button>
+      </form>
+    </div>
+
+    <script src="script/validate-inputs.js"></script>
+  </body>
+</html>
