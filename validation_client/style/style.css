@@ -14,7 +14,7 @@ body {
   background-size: cover;
   font-family: 'Open Sans', sans-serif;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   min-height: 100vh;
   margin: 0;
@@ -27,10 +27,74 @@ body {
   width: 500px;
 }
 
+h1 {
+  color: white;
+  text-transform: uppercase;
+}
 h2 {
   text-align: center;
   margin: 0 0 20px;
 }
+h3 {
+  text-transform: uppercase;
+}
+.anordnung{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  color: white;
+}
+
+
+.textblockweiss{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  margin: 5vh 0;
+  padding: 2vh 2vw;
+}
+
+.textblockweiss{
+  width: 60vw;
+  background-color: rgba(256, 256, 256, 0.7);
+}
+
+.anmeldebutton {
+  box-shadow:inset 0px 1px 0px 2px #ffffff;
+  background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color:#ffffff;
+  border-radius:17px;
+  border:1px solid #dcdcdc;
+  display:inline-block;
+  cursor:pointer;
+  color:#666666;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:9px 34px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
+}
+.anmeldebutton:hover {
+  background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+  background-color:#f6f6f6;
+}
+.anmeldebutton:active {
+  position:relative;
+  top:1px;
+}
+
+
 
 .form {
   padding: 30px 40px;

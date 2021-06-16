@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="065e0cfd-683a-4057-aa84-57e94a9646a4" name="Default Changelist" comment="" />
+    <list default="true" id="065e0cfd-683a-4057-aa84-57e94a9646a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validation_client/script/validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/validation_client/anmeldung.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation_client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/validation_client/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation_client/script/validate-inputs.js" beforeDir="false" afterPath="$PROJECT_DIR$/validation_client/script/validate-inputs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation_client/style/input-form.css" beforeDir="false" afterPath="$PROJECT_DIR$/validation_client/style/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +18,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1tx6FlfQetRfOQZ61AaX4zEDzkE" />
   <component name="ProjectViewState">
@@ -23,8 +35,15 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../M307/M307_LB02_Chantal_Stadler/validation_client/script/validate-inputs.js" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chant\Documents\BZZ\BS-Module\Informatik\LB02_M307\validation_client\script" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -37,10 +56,42 @@
       <option name="presentableId" value="Default" />
       <updated>1623698291179</updated>
       <workItem from="1623698292612" duration="19000" />
+      <workItem from="1623698714616" duration="5791000" />
+      <workItem from="1623778405552" duration="12512000" />
     </task>
+    <task id="LOCAL-00001" summary="Zweiter Commit, Benutzereingaben HTML ergänzt">
+      <created>1623778724837</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623778724837</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Zweiter Commit, Benutzereingaben HTML ergänzt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zweiter Commit, Benutzereingaben HTML ergänzt" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="550" y="115" key="CommitChangelistDialog2" timestamp="1623778722930">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="550" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1623778722930" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1623784043719">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1623784043719" />
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1623784946336">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1623784946336" />
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1623778735019">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1623778735019" />
   </component>
 </project>

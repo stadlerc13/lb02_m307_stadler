@@ -4,86 +4,65 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <link rel="stylesheet" href="style/input-form.css"/>
+    <link rel="stylesheet" href="style/style.css"/>
     <link rel="shortcut icon" type="image/x-icon" href="images/bridge.png">
     <title>Anmeldung Linth OpenAir</title>
   </head>
   <body>
+  <diV class="anordnung">
+      <div class="nav"><ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="anmeldung.html">Anmeldung</a></li>
+  </ul></div>
 
-    <div class="container">
-      <form id="form" class="form">
-        <h2>Anmeldung Openair Linth</h2>
-        <!-- Aufgabe 1a: Fügen Sie Eingabefelder für Vor- und Nachname hinzu  -->
-        <div class="form-control">
-          <label for="name">Vorname</label>
-          <input type="text" id="name" placeholder="Vorname eingeben" />
-          <small>Error message</small>
-        </div>
-        <div class="form-control">
-          <label for="lastname">Nachname</label>
-          <input type="text" id="lastname" placeholder="Nachname eingeben" />
-          <small>Error message</small>
-        </div>
+   <h1> Wilkommen zur offiziellen Seite des Linth OpenAir</h1>
+
+  <div class="textblock">
+      <div class="textblockweiss">
+         <h3>Alle aufgepasst</h3> <p>
+         Summer vibes in coming! Mit cooler Location, lokalen Künstlern und tollen Foodtrucks geniessen wir auch dieses Jahr das populäre Linth OpenAir.
+              Festivalliebhaber aus der ganzen Schweiz sind herzlich eingeladen mit uns zu feiern.
+      </p></div>
 
 
-        <!-- Aufgabe 1b: Fügen Sie ein Eingabefeld für eine Telefonnummer hinzu -->
 
-        <div class="form-control">
-          <label for="username">Benutzername</label>
-          <input type="text" id="username" placeholder="Benutzername eingeben" />
-          <small>Error message</small>
-        </div>
-        <div class="form-control">
-          <label for="email">Email</label>
-          <input type="text" id="email" placeholder="Emailadresse eingeben" />
-          <small>Error message</small>
-        </div>
+          <div class="textblockweiss">
+              <h3>Anmedlung</h3>
+              <p>Das Linth OpenAir findet vom 22. Juli bis am 25. Juli an der Linth bei der Grynau SZ statt.
+               Um daran teilzunehmen, muss man sich im Vorhinein anmelden. Dies dient gleichzeitig zur Verhinderung von zu grossen Menschenmengen.
+              </p>
+         <a href="anmeldung.html" class="anmeldebutton"> Hier geht's zur Anmeldung</a> </div>
 
-        <div class="form-control">
-          <label for="birthdate"> Geburtsdatum</label>
-          <input type="date" id="birthdate" placeholder="Geburtsdatum eingeben">
-          <small>Error message</small>
 
-          <div class="form-control">
-            <input type="radio" name="payement" value="bill"> Per Rechnung im Vorraus
-            <input type="radio" name="payement" value="cashdesk">An der Kasse
-            <input type="radio" name="payement" value="TWINT" checked>TWINT im Vorraus
-            <small>Error message</small>
-        </div>
 
-          <div class="form-control">
-            <label for="c1">22. Juli</label>
-            <input type="checkbox" name="extra" id="c1" value="firstday">
-            <label for="c2">23. Juli</label>
-            <input type="checkbox" name="extra" id="c2" value="secondday">
-            <label for="c3">24. Juli</label>
-            <input type="checkbox" name="extra" id="c3" value="thirdday">
-            <label for="c3">25. Juli</label>
-            <input type="checkbox" name="extra" id="c3" value="forthday">
-            <small>Error message</small>
+          <div class="textblockweiss">
+              <h3>Künstler</h3>
+              <p>
+                 DJ Mosfje, 20
+                  <br>
+                  Mit seinem frechen DJ Style begeister er alle Zushörer. Er stammt ursprünglich aus Russland, was man an seiner temperamenten Art sieht.
+                  Seit kleinauf ist er Interessiert an der Musik.
+                  <br>
+                  <br>
+                  Danja Martyns, 35
+                  <br>
+                  Unsere Deutschrapperin freut sich schon ihre neues Album zum ersten Mal vor dem Publikum zu singen.
+              </p>
+
+
+
           </div>
 
-          <div class="form-control">
-            <p> Kopie Pass / ID einfügen</p>
-            <input type="file" name="bild" accept="image/*">
-            <small>Error message</small>
-          </div>
-        <div class="form-control">
-          <label for="password">Passwort</label>
-          <input type="password" id="password" placeholder="Passwort eingeben" />
-          <small>Error message</small>
-        </div>
-        <!-- Aufgabe 1c: Fügen Sie ein weiteres Passwortfeld (zur Bestätigung des ersten Passworts) hinzu -->
-        <div class="form-control">
-          <label for="passwordcontrol">Passwort</label>
-          <input type="password" id="passwordcontrol" placeholder="Passwort bestätigen" />
-          <small>Error message</small>
-        </div>
 
-        <button type="submit">Absenden</button>
-      </form>
-    </div>
+          <div class="textblockweiss">
+              <h3>Anreise</h3>
+              <p>
+                 ÖV: Mit dem Zug nach Uznach und dann den 521 Bus Richtung Reichenburg nehmen. Alle 30min fahrt ein Bus. Es werden je nach Teilnehmeranzahl, Extrabusse fahren.
+              </p>
+         </div>
+  </div>
 
+  </diV>
     <script src="script/validate-inputs.js"></script>
   </body>
 </html>
