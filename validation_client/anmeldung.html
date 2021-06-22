@@ -15,7 +15,7 @@
 </ul></div>
 
 <div class="container">
-    <form id="form" class="form">
+    <form id="form" class="form" >
         <h2>Anmeldung Openair Linth</h2>
         <!-- Aufgabe 1a: Fügen Sie Eingabefelder für Vor- und Nachname hinzu  -->
         <div class="form-control">
@@ -57,7 +57,7 @@
             <small>Error message</small>
         </div>
 
-        <div class="form-control">
+        <div class="form-control" id="payement">
             <p>Zahlungsart*</p>
             <input type="radio" name="payement" value="bill"> Per Rechnung im Vorraus
             <input type="radio" name="payement" value="cashdesk">An der Kasse
@@ -65,7 +65,7 @@
             <small>Error message</small>
         </div>
 
-        <div class="form-control" ide="date">
+        <div class="form-control" id="date">
             <p>Veranstaltungszeit*</p>
             <label for="c1">22. Juli</label>
             <input type="checkbox" name="extra" id="c1" value="firstday">
@@ -80,7 +80,7 @@
 
         <div class="form-control">
             <p> Kopie Pass / ID einfügen*</p>
-            <input type="file" name="bild" accept="image/*">
+            <input type="file" name="bild" accept="image/*" required="required">
             <small>Error message</small>
         </div>
 

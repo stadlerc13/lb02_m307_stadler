@@ -51,9 +51,14 @@ h3 {
   justify-content: center;
   width: 100vw;
   color: white;
+  text-decoration: none;
 }
-
-
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
 .textblockweiss{
   display: flex;
   align-items: center;
