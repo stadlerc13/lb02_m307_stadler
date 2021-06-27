@@ -76,6 +76,19 @@ function checkLength(id, input, min, max) {
     im Internet nach "javascript regular expression for mobile number".
 */
 // Check phone is valid
+function checkPhone(id,input) {
+    let result = {
+        isNotValid: false,
+        msg: showSuccess(id)
+    }const re = /^([0][1-9][0-9](\s|)[0-9][0-9][0-9](\s|)[0-9][0-9](\s|)[0-9][0-9])$|^(([0][0]|\+)[1-9][0-9](\s|)[0-9][0-9](\s|)[0-9][0-9][0-9](\s|)[0-9][0-9](\s|)[0-9][0-9])$/gm;
+    if (!re.test(input.trim())) {
+        result = {
+            isNotValid: true,
+            msg: showError(id, 'Telefonnummer ist nicht richtig')
+        }
+    }
+    return result; }
+
 
 
 /* Aufgabe 3:
@@ -92,6 +105,7 @@ function checkLength(id, input, min, max) {
  */
 module.exports = {
     checkEmail,
+    checkPhone,
     checkLength,
     checkRequired
 }

@@ -8,7 +8,7 @@ Der Server dient zu Übung zur Validierung von Benutzereingaben im Backend.
 
 let express = require("express");
 let bodyParser = require("body-parser");
-let app     = express();
+let app = express();
 const { v4: uuidv4 } = require('uuid');
 const UserRepository = require('./UserRepository');
 const Validation = require('./ValidationService');
@@ -64,9 +64,13 @@ app.post('/register', (req, res) => {
      */
     let userObj = {
         "id": uuidv4(),
+        "name": req.body.user.name,
+        "lastname": req.body.user.lastname,
         "username": req.body.user.username,
         "email": req.body.user.email,
-        "password": req.body.user.password
+        "phone": req.body.user.phone,
+        "password": req.body.user.password,
+        "passwordcontrol": req.body.user.passwordcontrol
     }
 
     let result = Validation.validateUser(userObj);

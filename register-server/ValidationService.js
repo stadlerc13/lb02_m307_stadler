@@ -33,10 +33,21 @@ function validateUser(userObj) {
         Validierung auf vorhandensein von Vornamen, Nachnamen
      */
 
+   result = validateLib.checkRequired("name", userObj.name);
+    if (result.isNotValid) { return result; }
+
+     result = validateLib.checkRequired("lastname", userObj.lastname);
+    if (result.isNotValid) { return result; }
+
     /* Aufgabe 4b:
         Validierung auf vorhandensein von der Länge
         für Vorname (2 bis 20) und Nachname (2 bis 50)
      */
+    result = validateLib.checkLength("name",userObj.name, 2, 20);
+    if (result.isNotValid) { return result; }
+
+    result = validateLib.checkLength("lastname",userObj.lastname, 2, 50);
+    if (result.isNotValid) { return result; }
 
     /* Aufgabe 4c:
       Validierung der Telefonnumer ähnlich wie bei der Email mit einer
