@@ -165,3 +165,43 @@ li {
   width: 100%;
 }
 
+.radioanordnung  {
+  display:flex;
+  justify-content: space-between;
+  width: 16.5vw;
+  flex-wrap: nowrap;
+
+}
+.radioanordnung input {
+  width: 10vw;
+  margin: 1vh 0vh;
+  height: 1.5vh;
+
+}
+.radioanordnung p {
+  width: 10vw;
+  margin: 1vh 0vh;
+  height: 5vh;
+
+}
+.checkboxanordnung  {
+ display:flex;
+  justify-content: space-between;
+  width: 15vw;
+  flex-wrap: nowrap;
+
+}
+.checkboxanordnung label {
+  width: 10vw;
+  margin: 1vh 0vh;
+  height: 5vh;
+
+}
+
+.checkboxanordnung input {
+  width: 5vw;
+  margin: 1vh 0vh;
+  height: 2vh;
+
+
+}

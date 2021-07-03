@@ -84,7 +84,7 @@ function checkPhone(input) {
     }
 
     function checkValidity() {
-        const errorMessage = !isChecked() ? 'Mindestend ein Kästchen muss ausgewählt sein' : '';
+        const errorMessage = !isChecked() ? 'Mindestens ein Kästchen muss ausgewählt sein' : '';
         firstCheckbox.setCustomValidity(errorMessage);
     }
 
@@ -137,7 +137,7 @@ function checkPasswordMatch(input1, input2) {
     if (pwd1 === pwd2) {
         showSuccess(input2);
     } else {
-        showError(input2, 'Zweites .... ist nicht richtig');
+        showError(input2, 'Zweites Passwort stimmt nicht überein');
     }
 }
 
@@ -147,10 +147,10 @@ function getFieldName(input) {
 }
 
 function validateForm() {
-    if (!checkRequired([name, lastname, username, email, phone, birthdate, password])) {
+    if (!checkRequired([name, lastname, username, email, phone, birthdate, password, passwordcontrol])) {
         //Aufgabe: Validierung der Länge für Vorname (2 bis 20) und Nachname (2 bis 50)
-        checkLength(name, 2, 15);
-        checkLength(lastname, 2, 15);
+        checkLength(name, 2, 20);
+        checkLength(lastname, 2, 50);
         checkLength(username, 3, 15);
         checkLength(password, 6, 25);
         /* Aufgabe:
@@ -165,10 +165,6 @@ function validateForm() {
     }
 }
 
-/* Aufgabe:
-  Validierung Sie die beiden Passwörter, damit password
-  mit password2 übereinstimmt.
-* */
 
 // Event listeners
 form.addEventListener('submit', function (e) {
