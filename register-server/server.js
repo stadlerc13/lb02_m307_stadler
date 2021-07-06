@@ -8,8 +8,8 @@ Der Server dient zu Übung zur Validierung von Benutzereingaben im Backend.
 
 let express = require("express");
 let bodyParser = require("body-parser");
-let app     = express();
-const { v4: uuidv4 } = require('uuid');
+let app = express();
+const {v4: uuidv4} = require('uuid');
 const UserRepository = require('./UserRepository');
 const Validation = require('./ValidationService');
 
@@ -20,8 +20,8 @@ console.log(`Running at Port ${port}`);
 server.timeout = 1000 * 60 * 2; // 2 minutes
 
 //Warning: Korrekt setzen!!
-const staticPath = './12b_validation_server/03_Solutions/register-server-02/data/';
-const registrationFile = staticPath+'registration.json';
+const staticPath = './register-server/data/';
+const registrationFile = staticPath + 'registration.json';
 
 
 // Use middleware to set the default Content-Type
@@ -40,12 +40,11 @@ app.get('/test1', (req, res) => {
 });
 
 
-
 // necessary for posting data
 // support json encoded bodies
 app.use(bodyParser.json());
 // support encoded bodies
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({extended: true}));
 
 /*  1. Writing to file
     https://stackabuse.com/reading-and-writing-json-files-with-node-js/

@@ -9,7 +9,7 @@ function showSuccess(id) {
 }
 
 // Check email is valid
-function checkEmail(id,input) {
+function checkEmail(id, input) {
     //Default: is valid
     let result = {
         isNotValid: false,
@@ -58,7 +58,7 @@ function checkLength(id, input, min, max) {
         result = {
             isNotValid: true,
             msg: showError(id,
-            `${id} muss mindestens ${min} Zeichen haben`)
+                `${id} muss mindestens ${min} Zeichen haben`)
         }
     } else if (input.length > max) {
         result = {
@@ -75,9 +75,10 @@ function checkLength(id, input, min, max) {
     Regular expression (regex). Für eine geeignete regex suchen Sie
     im Internet nach "javascript regular expression for mobile number".
 */
+
 // Check phone is valid
 
-function checkPhone(id,input) {
+function checkPhone(id, input) {
     //Default: is valid
     let result = {
         isNotValid: false,
@@ -93,13 +94,28 @@ function checkPhone(id,input) {
     return result;
 }
 
-
 /* Aufgabe 3:
     Validieren Sie, ob die beiden Passwörter übereinstimmen.
     Falls sie nicht übereinstimmen, geben Sie (ähnlich wie in den anderen Beispielen)
-    eine Fehlermeldung dem Formular aus.
-*/
+    eine Fehlermeldung dem Formular aus. */
 
+function checkPasswordMatch(id, input1, input2) {
+    //Default: is valid
+    let result = {
+        isNotValid: false,
+        msg: showSuccess(id)
+    }
+    if ((input1.trim()) !== (input2.trim())) {
+        result = {
+            isNotValid: true,
+            msg: showError(id, `Passwörter müssen übereinstimmen`)
+        }
+    }
+    return result;
+}
+
+
+/*
 function checkPasswordMatch(input1, input2) {
     let pwd1 = input1.value.trim();
     let pwd2 = input2.value.trim();
@@ -108,7 +124,7 @@ function checkPasswordMatch(input1, input2) {
     } else {
         showError(input2, 'Zweites Passwort stimmt nicht überein');
     }
-}
+} */
 
 /**
  *  Export validation functions for further usage.
