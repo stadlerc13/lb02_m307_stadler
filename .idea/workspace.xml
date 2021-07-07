@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="065e0cfd-683a-4057-aa84-57e94a9646a4" name="Default Changelist" comment="">
+    <list default="true" id="065e0cfd-683a-4057-aa84-57e94a9646a4" name="Default Changelist" comment="neunter Commit, Projekt done + Testprotokoll hinzugefügt">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register-server/ValidationLib.js" beforeDir="false" afterPath="$PROJECT_DIR$/register-server/ValidationLib.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +104,8 @@
       <workItem from="1625654300094" duration="954000" />
       <workItem from="1625656235656" duration="216000" />
       <workItem from="1625660602308" duration="269000" />
+      <workItem from="1625661217386" duration="108000" />
+      <workItem from="1625661393073" duration="239000" />
     </task>
     <task id="LOCAL-00001" summary="Zweiter Commit, Benutzereingaben HTML ergänzt">
       <created>1623778724837</created>
@@ -175,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625660751809</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="neunter Commit, Projekt done + Testprotokoll hinzugefügt">
+      <created>1625661311509</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1625661311509</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,10 +215,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1625316845272" />
-    <state x="550" y="115" key="CommitChangelistDialog2" timestamp="1625660750154">
+    <state x="550" y="115" key="CommitChangelistDialog2" timestamp="1625661605509">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="550" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1625660750154" />
+    <state x="550" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1625661605509" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1625316717550">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -282,10 +291,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625428649878" />
-    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1625660858818">
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1625661319591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1625660858818" />
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1625661319591" />
     <state x="729" y="254" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1624822915205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
