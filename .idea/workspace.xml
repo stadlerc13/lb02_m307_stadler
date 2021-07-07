@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="065e0cfd-683a-4057-aa84-57e94a9646a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register-server/ValidationLib.js" beforeDir="false" afterPath="$PROJECT_DIR$/register-server/ValidationLib.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register-server/ValidationService.js" beforeDir="false" afterPath="$PROJECT_DIR$/register-server/ValidationService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register-server/data/registration.json" beforeDir="false" afterPath="$PROJECT_DIR$/register-server/data/registration.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register-server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/register-server/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation_client/anmeldung.html" beforeDir="false" afterPath="$PROJECT_DIR$/validation_client/anmeldung.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation_client/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/validation_client/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +98,10 @@
       <workItem from="1625497754963" duration="225000" />
       <workItem from="1625497997618" duration="8404000" />
       <workItem from="1625506450090" duration="1071000" />
+      <workItem from="1625593814113" duration="232000" />
+      <workItem from="1625652857606" duration="197000" />
+      <workItem from="1625654300094" duration="954000" />
+      <workItem from="1625656235656" duration="216000" />
     </task>
     <task id="LOCAL-00001" summary="Zweiter Commit, Benutzereingaben HTML ergänzt">
       <created>1623778724837</created>
@@ -161,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625324572330</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="achter Commit, Projekt done">
+      <created>1625594022511</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1625594022511</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,25 +180,26 @@
     <MESSAGE value="sechster Commit, Server Validierung" />
     <MESSAGE value="sechster Commit, Server Validierung erneuert" />
     <MESSAGE value="siebter Commit, fehlende Datei ergänzt" />
-    <option name="LAST_COMMIT_MESSAGE" value="siebter Commit, fehlende Datei ergänzt" />
+    <MESSAGE value="achter Commit, Projekt done" />
+    <option name="LAST_COMMIT_MESSAGE" value="achter Commit, Projekt done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="924" y="197" width="816" height="729" key="#Intentions" timestamp="1625500004588">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="924" y="197" width="816" height="729" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1625500004588" />
-    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1625506297766">
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1625653052381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1625506297766" />
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1625653052381" />
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1625316845272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1625316845272" />
-    <state x="550" y="115" key="CommitChangelistDialog2" timestamp="1625593992192">
+    <state x="550" y="115" key="CommitChangelistDialog2" timestamp="1625660657304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="550" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1625593992192" />
+    <state x="550" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1625660657304" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1625316717550">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -266,10 +272,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625428649878" />
-    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1625324536965">
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1625594028028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1625324536965" />
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1625594028028" />
     <state x="729" y="254" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1624822915205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
