@@ -115,17 +115,6 @@ function checkPasswordMatch(id, input1, input2) {
 }
 
 
-/*
-function checkPasswordMatch(input1, input2) {
-    let pwd1 = input1.value.trim();
-    let pwd2 = input2.value.trim();
-    if (pwd1 === pwd2) {
-        showSuccess(input2);
-    } else {
-        showError(input2, 'Zweites Passwort stimmt nicht überein');
-    }
-} */
-
 /**
  *  Export validation functions for further usage.
  *  function to export WITHOUT beackets!
